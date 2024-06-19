@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    
+
+
+}
+.loader{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+    clip-path: circle(501.4% at 100% 0);
+}
+.loader::after{
+     content: "";
+     width: 100px;
+     height: 100px;
+    border: rgb(31, 60, 78) 10px solid;
+    border-top:rgb(35, 129, 187) 10px solid  ;
+
+    border-radius: 50%;
+    animation:spin 1s ease infinite;
+}
+.loader-hidden{
+    clip-path: circle(200.4% at 100% 0);
+    clip-path: circle(0.0% at 100% 0);
+    transition:clip-path 1.5s ease-out;
+}
+#loading{
+    color:rgb(35, 129, 187) ;
+    animation: loading 1s alternate infinite ease-in-out;
+}
+@keyframes loading{
+    0%{ opacity: .2;}
+    100%{opacity:1;}
+}
+.card-bodyInicio{
+    animation: inicioPremium 1s inherit
+}
+@keyframes inicioPremium{
+    0%{opacity: 0;}
+    100%{opacity:1;}
+}
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.lista-cartas{
+    display: flex;
+}
+.nav-buttonToyota:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(109, 3, 3);
+}
+.nav-buttonToyota{
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+
+.LexusMerccard-title:hover{
+    color: rgb(149, 149, 149);
+}
+.card-titleToyota:hover{
+    color: rgb(226, 38, 38);
+}
+.card-title:hover{
+    color: rgb(63, 107, 252);
+}
+#copyright{
+    text-align: right;
+}
+.footer{
+    margin-top: 20px;
+    padding: 1px;
+    background-color: white;
+    color: black;
+}
+.card{
+    margin-left: 5px;
+}
+.LexMercboton-deCarta:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(149, 149, 149);
+    color: white;
+}
+.LexMercboton-deCarta{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+
+.nav-buttonFordVolks:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 57, 245);
+}
+.nav-buttonFordVolks{
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+
+.boton-deCartaToyota:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 38, 38);
+    color: white;
+}
+.boton-deCartaToyota{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+.cartita{
+    margin-left: 40px;
+}
+
+
+.boton-deCartaSubmit:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(41, 115, 253);
+    color: white;
+}
+.boton-deCartaSubmit{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+
+.nav-button:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(116, 117, 121);
+}
+.nav-button{
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+
+.carousel-image{
+    margin-left: 200px;
+}
+
+.nav{
+    margin-top: -30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.card-body{
+    background-color: rgb(54, 54, 54);
+}
+.card{
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+.cartas-marcas{
+    display: flex;
+}
+form label{
+    display: block;
+  }
+  .input-padron{
+    padding:3px 11px;
+    display: block;
+    width: 50%;
+  }
+  #contenedor :hover{
+    border-color: blue;
+  } 
+.conjunto{
+    display: flex;
+}
+.mapita{ 
+    margin-bottom: 100px;
+}
+
+.formulario{
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+#texto-formulario{
+    margin-right: 20px;
+}
+#texto-mapa{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.carousel-control-prev{
+    border-color:black;
+    color: black;
+}
+.carousel-control-prev-icon{
+    color: black;
+}
+#texto-cartita1{
+    margin-left: 100px;
+}
+#texto-cartita{
+    margin-left: 700px;
+}
+.titulos-cartas{
+    display: flex;
+}
+.cartas-marcas{
+    margin-left:40px ;
+}
+#titulo{
+    margin-left: 30px;
+    color:white;
+}
+header{
+    background-color: white;
+}.nav  .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+}
+.card{
+    background-color: rgb(54, 54, 54);
+}
+.cartas{
+    display: flex;
+}
+.logo{
+ width: 5%;
+ margin-top: 10px;
+ margin-left: 10px;   
+}

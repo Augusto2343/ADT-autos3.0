@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    
+
+
+}
+.img-text{
+    display: column;
+    margin-bottom: 50px;
+}
+#text-auto{
+    margin-left: 150px;
+    color: white;
+}
+.loader{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+    clip-path: circle(501.4% at 100% 0);
+}
+.loader::after{
+     content: "";
+     width: 100px;
+     height: 100px;
+    border: rgb(31, 60, 78) 10px solid;
+    border-top:rgb(35, 129, 187) 10px solid  ;
+
+    border-radius: 50%;
+    animation:spin 1s ease infinite;
+}
+.loader-hidden{
+    clip-path: circle(200.4% at 100% 0);
+    clip-path: circle(0.0% at 100% 0);
+    transition:clip-path 1.5s ease-out;
+}
+#loading{
+    color:rgb(35, 129, 187) ;
+    animation: loading 1s alternate infinite ease-in-out;
+}
+@keyframes loading{
+    0%{ opacity: .2;}
+    100%{opacity:1;}
+}
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.lista-cartas{
+    display: flex;
+}
+
+.nav-buttonToyota:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(109, 3, 3);
+}
+.carousel-control-prev-icon{
+    margin-left: 60px;
+}
+.carousel-control-prev{
+    margin-left: 60px;
+}
+#textoDelAuto{
+    margin-left: 50px;
+}
+@keyframes inicioEpico{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+.carouselClase{
+    display: inline-block;
+}
+.boton-xd{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+.boton-xd :hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 60, 255);
+}
+.auto{
+    margin-left: 400px;
+}
+.textito{
+    color: white;
+}
+#lug3{
+    color: white;
+    margin-bottom: 100px;
+}
+#lug1{
+    color: black;
+    margin-bottom: 70px;
+}
+.texto-auto{
+    display: flex;
+}
+.texto-auto2{
+    margin-left: 50px;
+}
+.url:hover{
+    color: red;
+    font-size:110%;
+}
+#lug4{
+    color: black;
+    margin-bottom: 140px;
+}
+.url{
+    margin-right: 10px;
+}
+#lug2{
+    color: white;
+    margin-bottom: 140px;
+}
+#lug6 {
+    color: black;
+    margin-bottom: 140px;
+}
+.carousel-image2{
+    margin-left: 100px;
+}
+#carouselExampleCaptions{
+    margin-left: 200px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.carusel2TiposAut{
+    display: flex;
+}
+.txt-auto2{
+    margin-left:20px;
+    margin-top: -10px;
+}
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+#carousel{
+    margin-left: 200px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+#carousel3{
+    margin-left: -100px;
+}
+#carousel4{
+    margin-left: -50px;
+}
+#carousel1{
+    margin-left: -100px;
+}
+#carouselCaptions{
+    margin-left: 200px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.image-carousel{
+    margin-left: 100px;
+    display: inline-block;
+}
+.nav-buttonToyota{
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+#img-model{
+    margin-left: 500px;
+}
+.texto-image{
+    display: flex;
+}
+#lug5{
+    margin-bottom: 100px;
+    color: black;
+}
+.LexusMerccard-title:hover{
+    color: rgb(149, 149, 149);
+}
+.card-titleToyota:hover{
+    color: rgb(226, 38, 38);
+}
+.card-title:hover{
+    color: rgb(63, 107, 252);
+}
+#text-footer{
+    text-align: right;
+}
+.footer{
+    margin-top: 20px;
+    padding: 1px;
+    background-color: white;
+    color: black;
+}
+.card{
+    margin-left: 5px;
+}
+.LexMercboton-deCarta:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(149, 149, 149);
+    color: white;
+}
+.LexMercboton-deCarta{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+
+.nav-buttonFordVolks4{
+    margin-left: 400px;
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+    color: white;
+}
+.nav-buttonFordVolks4:hover{
+    margin-left: 400px;
+    background-color: rgb(0, 57, 245);
+    border: none;
+    border-radius: 5px;
+    margin-right:20px;
+    color: white;
+}
+.nav-buttonFordVolks3{
+    margin-left: 200px;
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+    color: white;
+}
+.nav-buttonFordVolks3:hover{
+    margin-left: 200px;
+    background-color: rgb(0, 57, 245);
+    border: none;
+    border-radius: 5px;
+    margin-right:20px;
+    color: white;
+}
+.nav-buttonFordVolks:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 57, 245);
+}
+.nav-buttonFordVolks{
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+}
+.nav-buttonFordVolks2{
+    margin-left: 500px;
+    background-color: transparent;
+    border: none;
+    margin-right:20px;
+    color: white;
+}
+.nav-buttonFordVolks2:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 57, 245);
+}
+.boton-deCartaToyota:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 38, 38);
+    color: white;
+}
+.boton-deCartaToyota{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+.cartita{
+    margin-left: 50px;
+}
+.boton-deCartaSubmit:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(41, 115, 253);
+    color: white;
+}
+.boton-deCartaSubmit{
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+#carousel2{
+    margin-left: -20px;
+}
+.nav-button:hover{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(116, 117, 121);
+}
+.nav-button{
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+
+.carousel-image{
+    margin-left: 200px;
+}
+
+.nav{
+    margin-top: -30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.card-body{
+    background-color: rgb(54, 54, 54);
+}
+.card{
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+#color2{
+    color: rgb(0, 0, 0);
+}
+.cartas-marcas{
+    display: flex;
+}
+#color4{
+    margin-left: 300px;
+    color: white;
+}
+#color3{
+    margin-left: 700px;
+    color: rgb(54, 54, 54);
+}
+#texto-carousel{
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel-control-prev{
+    border-color:black;
+    color: black;
+}
+.carousel-control-prev-icon{
+    color: black;
+}
+#texto-cartita1{
+    margin-left: 100px;
+}
+#texto-cartita{
+    margin-left: 700px;
+}
+.titulos-cartas{
+    display: flex;
+}
+.cartas-marcas{
+    margin-left:40px ;
+}
+#titulo{
+    margin-left: 30px;
+    color:white;
+}
+header{
+    margin-bottom: 30px;
+    padding: 2px;
+    background-color: white;
+}.nav  .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+}
+.card{
+    background-color: rgb(54, 54, 54);
+}
+#titulo-pag{
+     color: black;
+     margin-top: 5px;
+     margin-left: 10px;
+}
+.cartas{
+    display: flex;
+}
+.logo{
+ width: 5%;
+ margin-top: 10px;
+ margin-left: 10px;   
+}
